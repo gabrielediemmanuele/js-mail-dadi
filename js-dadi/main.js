@@ -16,12 +16,14 @@ console.log(player, megatron);
 
 //Determinare il vincitore in base al numero
 
-document.getElementById("dice-game").innerHTML = messageAllert;
-
 messageAllert = "è un pareggio!";
 
 if (player > megatron) {
+  document.getElementById("dice-game").classList.add("greentext");
   messageAllert = "hai vinto !";
 } else if (player < megatron) {
+  document.getElementById("dice-game").classList.add("redtext");
   message = "Il tuo pianeta verrà distrutto!";
 }
+
+document.getElementById("dice-game").innerHTML = messageAllert;
