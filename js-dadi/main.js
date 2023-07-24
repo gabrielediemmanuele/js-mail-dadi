@@ -16,7 +16,7 @@ console.log(player, megatron);
 
 //Determinare il vincitore in base al numero
 
-if (player == megratron) {
+if (player == megatron) {
   document.getElementById("dice-game").classList.add("bluetext");
   messageAllert = "è un pareggio!";
 } else if (player > megatron) {
