@@ -2,6 +2,7 @@
 
 //Generare un numero a caso da 1 a 6 per il giocatore e per il pc (AI).
 
+//Player & pc
 let player, megatron;
 
 //Alert per l'inizio del gioco
