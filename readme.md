@@ -28,3 +28,6 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 - Chiedere all'utente un numero da 1 a 6.
 - Al click, far generare un altro numero casuale al pc. (utilizzando un EventListener click);
 - Determinare il vincitore in base al punteggio più alto (utilizzando una condition);
+  - Mettere un messaggio di pareggio se i numeri sono uguali.
+  - _Se_ il numero del giocatore è maggiore, vince è appare un messaggio apposito.
+  - _Altrimenti se_ il numero del giocatore è minore, vince il pc e appare un messaggio apposito.
