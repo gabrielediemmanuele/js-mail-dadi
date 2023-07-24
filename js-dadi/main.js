@@ -18,13 +18,13 @@ console.log(player, megatron);
 
 if (player == megatron) {
   document.getElementById("dice-game").classList.add("bluetext");
-  messageAllert = "è un pareggio!";
+  messageAllert = "è un pareggio, la battaglia continua !";
 } else if (player > megatron) {
   document.getElementById("dice-game").classList.add("greentext");
-  messageAllert = "Hai vinto !";
+  messageAllert = "Hai vinto, la terra è salva !";
 } else if (player < megatron) {
   document.getElementById("dice-game").classList.add("redtext");
-  messageAllert = "Il tuo pianeta verrà distrutto!";
+  messageAllert = "Il tuo pianeta verrà distrutto !";
 }
 
 document.getElementById("dice-game").innerHTML = messageAllert;
